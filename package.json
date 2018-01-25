@@ -5,6 +5,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "graphql-schema-from-json": "^0.0.3"
+    "graphql": "0.12.3",
+    "graphql-schema-from-json": "0.0.3"
+  },
+  "resolutions": {
+    "graphql-schema-from-json/graphql": "0.12.3"
   }
 }
